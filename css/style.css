@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1em;
+  font-family: Arial, sans-serif;
+}
+
+#gameForm {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  flex-wrap: wrap;
+}
+
+#buttonCount {
+  width: 5em;
+  padding: 0.4em;
+  font-size: 1em;
+}
+
+#goButton {
+  padding: 0.4em 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+#message {
+  min-height: 1.5em;
+  font-weight: bold;
+}
+
+#gameArea {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  align-items: flex-start;
+}
+
+.memory-button {
+  width: 10em;
+  height: 5em;
+
+  border: 2px solid black;
+
+  font-size: 1em;
+  font-weight: bold;
+
+  cursor: default;
+}
+
+.memory-button:disabled {
+  opacity: 1;
+}
+
+.memory-button.ready {
+  cursor: pointer;
+}
