@@ -2,6 +2,8 @@ import { InputValidator } from "./InputValidator.js";
 
 import { MemoryButton } from "./MemoryButton.js";
 
+/* GPT assisted with a portion of the code. */
+
 export class MemoryGame {
   constructor(messages) {
     this.messages = messages;

@@ -30,7 +30,8 @@ export class MemoryButton {
   createRandomColor() {
     const hue = Math.floor(Math.random() * 360);
 
-    return `hsl(${hue}, 70%, 65%)`;
+    return `hsl(${hue}, 67%, 67%)`;
+    // hue, saturation, lightness
   }
 
   moveToRandomPosition(viewportWidth, viewportHeight) {
